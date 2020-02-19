@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Blue corner:</strong>
+  <%= @fight.blue_corner %>
+</p>
+
+<p>
+  <strong>Red corner:</strong>
+  <%= @fight.red_corner %>
+</p>
+
+<p>
+  <strong>Blue line:</strong>
+  <%= @fight.blue_line %>
+</p>
+
+<p>
+  <strong>Red line:</strong>
+  <%= @fight.red_line %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @fight.event %>
+</p>
+
+<%= link_to 'Edit', edit_fight_path(@fight) %> |
+<%= link_to 'Back', fights_path %>

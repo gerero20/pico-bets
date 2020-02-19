@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  blue_corner: MyString
+  red_corner: MyString
+  blue_line: 1
+  red_line: 1
+  event: one
+
+two:
+  blue_corner: MyString
+  red_corner: MyString
+  blue_line: 1
+  red_line: 1
+  event: two
